@@ -1,14 +1,14 @@
 import React from 'react'
 import Head from 'next/Head'
-import About from '../components/About'
+import Projects from '../components/Projects'
 
 export default function about() {
     return (
         <div>
             <Head>
-                <title>About | M | M</title>
+                <title>Projects | M | M</title>
             </Head>
-            <About />
+            <Projects />
         </div>
     )
 }
