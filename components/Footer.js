@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/Layout.module.css'
+
 
 const Footer = () => {
     return (
@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="container">
                     <br />
                     <div className="collab">
-                        <div class="row">
+                        <div className="row">
                             <div className="col-lg-12">
                                 <p className="wow fadeInUp">Got an interesting project? I can help you.</p>
                             </div>
@@ -23,7 +23,7 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-lg-4" id="personal">
                                 <p className="wow fadeInUp">Copyright ® 2020 </p>
-                                <h4 className="wow fadeInUp" data-wow-delay="0.2s">morgane|mottey</h4>
+                                <h4 className="wow fadeInUp" data-wow-delay="0.2s">morgane | mottey</h4>
                                 <br />
                             </div>
                             <div className="col-lg-4" id="media">

@@ -1,6 +1,8 @@
-import '../styles/globals.css'
-import '../styles/about.css'
-import '../styles/animation.css'
+import '../styles/globals.scss'
+import '../styles/about.scss'
+import '../styles/card.scss'
+import '../styles/animation.scss'
+import '../styles/projects.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Layout from '../components/Layout'
 

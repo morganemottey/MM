@@ -8,7 +8,7 @@ export default function about() {
             <Head>
                 <title>Projects | M | M</title>
             </Head>
-            <Projects />
+            <Projects/>
         </div>
     )
 }

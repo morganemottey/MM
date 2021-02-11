@@ -1,116 +1,112 @@
-import Link from 'next/link'
+import React, { useState, useEffect } from "react";
+import Project from './Project'
+import photo1 from '../images/photo_1.png'
+import photo2 from '../images/photo_2.png'
+import photo3 from '../images/photo_3.png'
+import photo4 from '../images/photo_4.png'
+import photo5 from '../images/photo_5.png'
+import photo6 from '../images/photo_6.png'
 
-export default function Projects() {
-      return (
-            <>
-                  <div className="wrapper">
-                        <div className="whitespace"></div>
-                        <div className="container">
-                              <div className="hero-content">
-                                    <br />
-                                    <div className="row">
-                                          <div className="col-lg-8">
 
-                                                <h3 className="wow fadeInUp" data-wow-delay="1s">work.</h3><br />
-                                                <p className="wow fadeInUp" data-wow-delay="1.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, accusantium sint quod voluptatem dolorum, quaerat, ut iusto cumque magni ab repudiandae, quasi minus unde temporibus nulla eum eaque! Placeat praesentium sunt suscipit laboriosam deserunt commodi atque corporis, iure maiores dicta, fugit similique.</p>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                        <div className="container-fluid">
-                              <br />
-                              <div className="row">
-                                    <div className="col-lg-4 project project1 wow fadeInUp">
-                                          {/* <Link className="" href="work/project/first-project"></Link> */}
-                                    </div>
-                                    <div className="col-lg-8"></div>
-                              </div>
+const portfolio = [
+  {
+    name: "Project 1.0",
+    title: "Univert",
+    category: ["all", "frontend"],
+    image: `${photo1}`
+  },
+  {
+    name: "Project 2.0",
+    title: "South Park Memory Games",
+    category: ["all", "frontend"],
+    image: `${photo2}`
+  },
+  {
+    name: "Project 3.0",
+    title: "Date Monster",
+    category: ["all", "frontend"],
+    image: `${photo3}`
+  },
+  {
+    name: "Project 4.0",
+    title: 'Brickbreaker',
+    category: ["all", "frontend"],
+    image: `${photo4}`
+  },
+  {
+    name: "Project 5.0",
+    title: 'Piqueur de rue',
+    category: ["all", "fullstack"],
+    image: `${photo5}`
+  },
+  {
+    name: "Project 6.0",
+    title: 'My Zoo',
+    category: ["all", "fullstack"],
+    image: `${photo6}`
+  },
+  {
+    name: "Project 7.0",
+    title: 'Netflix Clone',
+    category: ["all", "frontend"],
+    image: `${photo1}`
+  },
+  {
+    name: "Project 8.0",
+    title: 'E-commerce Sneakers',
+    category: ["all", "fullstack"],
+    image: `${photo1}`
+  },
+  {
+    name: "Project 9.0",
+    title: 'Veepee - Cdiscount',
+    category: ["all", "fullstack"],
+    image: `${photo1}`
+  },
+];
 
-                              <div className="whitespace"></div>
+function Projects() {
+  const [filter, setFilter] = useState("all");
+  const [projects, setProjects] = useState([]);
 
-                              <div className="row">
-                                    <div className="col-lg-6 project project2 wow fadeInUp">
-                                          {/* <Link href="/project/second-project"></Link> */}
-                                    </div>
-                                    <div className="col-lg-6"></div>
-                              </div>
+  useEffect(() => {
+    setProjects(portfolio);
+  }, []);
 
-                              <div className="whitespace"></div>
+  useEffect(() => {
+    setProjects([]);
 
-                              <div className="row">
-                                    <div className="col-lg-7"></div>
-                                    <div className="col-lg-4 project project3 wow fadeInUp">
-                                          {/* <Link href="/project/third-project"></Link> */}
-                                    </div>
-                                    <div className="col-lg-1"></div>
-                              </div>
-
-                              <div className="whitespace"></div>
-
-                              <div className="row">
-                                    <div className="col-lg-1"></div>
-                                    <div className="col-lg-5 project project4 wow fadeInUp">
-                                          {/* <Link href="/project/fourth-project"></Link> */}
-                                    </div>
-                                    <div className="col-lg-6"></div>
-                              </div>
-
-                              <div className="whitespace"></div>
-
-                              <div className="row">
-                                    <div className="col-lg-8"></div>
-
-                                    <div className="col-lg-4 project project5 wow fadeInUp">
-                                          {/* <Link href="/project/fifth-project"></Link> */}
-                                    </div>
-                              </div>
-
-                              <div className="whitespace"></div>
-
-                              <div className="row">
-                                    <div className="col-lg-6 project project6 wow fadeInUp">
-                                          {/* <Link href="/project/sixth-project"></Link> */}
-                                    </div>
-
-                                    <div className="col-lg-6"></div>
-                              </div>
-
-                              <div className="whitespace"></div>
-
-                              <div className="row">
-                                    <div className="col-lg-7"></div>
-
-                                    <div className="col-lg-4 project project7 wow fadeInUp">
-                                          {/* <Link href="/project/seventh-project"></Link> */}
-                                    </div>
-                                    <div className="col-lg-1"></div>
-                              </div>
-
-                              <div className="whitespace"></div>
-
-                              <div className="row">
-                                    <div className="col-lg-1"></div>
-                                    <div className="col-lg-5 project project8 wow fadeInUp">
-                                          {/* <Link href="/project/eighth-project"></Link> */}
-                                    </div>
-                                    <div className="col-lg-6"></div>
-                              </div>
-
-                              <div className="whitespace"></div>
-
-                              <div className="row">
-                                    <div className="col-lg-8"></div>
-                                    <div className="col-lg-4 project project9 wow fadeInUp">
-                                          {/* <Link href="/project/ninth-project"></Link> */}
-                                    </div>
-                              </div>
-
-                              <div className="whitespace"></div>
-                        </div>
-                        <br /><br />
-
+    const filtered = portfolio.map(p => ({
+      ...p,
+      filtered: p.category.includes(filter)
+    }));
+    setProjects(filtered);
+  }, [filter]);
+  return (
+    <>
+        <div class="form-container">
+          <button className="projects_button" active={filter === "all"} onClick={() => setFilter("all")}> All </button>
+          <button className="projects_button" active={filter === "frontend"} onClick={() => setFilter("frontend")}> Frontend </button>
+          <button className="projects_button" active={filter === "fullstack"} onClick={() => setFilter("fullstack")}> Fullstack </button>
+        </div>
+      <div class="row">
+        <div class="">
+            {
+              projects.map(item =>
+                item.filtered === true ?
+                  <div className="p-2 m-4">
+                    <Project key={item.name}
+                      name={item.name}
+                      title={item.title}
+                      image={item.image}
+                    />
                   </div>
-            </>
-
-      )
+                  : ""
+              )}
+        </div>
+      </div>
+    </>
+  );
 }
+
+export default Projects;
