@@ -17,10 +17,6 @@ export default function Contact() {
                         </div>
                   </div>
 
-
-                  <div className="whitespace"></div>
-
-
                   <div className="container-fluid">
                         <div className="row ml-0">
                               <div className="col-lg-8">
@@ -30,23 +26,17 @@ export default function Contact() {
 
                                                 <li className="wow fadeInUp" data-wow-delay="1.4s">
                                                       <label for="contact-name">Name :</label>
-                                                      <div className="textarea">
-                                                            <input type="text" name="contact-name" id="contact-name" value="" required />
-                                                      </div>
+                                                      <input className="input" type="text" required/>
                                                 </li>
 
                                                 <li className="wow fadeInUp" data-wow-delay="1.6s">
                                                       <label for="contact-email">Email :</label>
-                                                      <div className="textarea">
-                                                            <input type="email" name="contact-email" id="contact-email" value="" required />
-                                                      </div>
+                                                      <input className="input" type="email"required />
                                                 </li>
 
                                                 <li className="wow fadeInUp" data-wow-delay="1.6s">
                                                       <label for="contact-project">Message :</label>
-                                                      <div className="textarea">
-                                                            <textarea type="email" name="contact-project" id="contact-project" rows="6" value="" required></textarea>
-                                                      </div>
+                                                      <textarea className="input" type="text" required></textarea>
                                                 </li>
 
                                           </ul>

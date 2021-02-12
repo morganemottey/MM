@@ -169,7 +169,7 @@ nav #menu li a:hover {
 }
 #toggle {
   position: absolute;
-  right: 30px;
+  right: 0px;
   top: 20px;
   font-weight: 300;
   z-index: 2;
@@ -184,16 +184,18 @@ nav #menu li a:hover {
 
 .close-btn {
   position: absolute;
-  right: 16px;
+  right: 42px;
   font-weight: 300;
   z-index: 2;
   cursor: pointer;
-  top: -2px;
-  line-height: 80px;
+  top: 23px;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
 }
 
 #resize {
-  z-index: 1;
+  z-index: 3;
   top: 0px;
   position: fixed;
   background: #0f0f0f;
@@ -273,7 +275,14 @@ nav #menu li a:hover {
         visibility: hidden !important;
   }
 }
-
+@media(max-width: 768px) {
+  nav {
+    height: 100px;
+  }
+  .span {
+    font-size: 10px;
+  }
+}
 /*--------------- hero section --------------- */
 .hero {
   height: 100vh;
@@ -508,8 +517,8 @@ h6 {
 
 @media(max-width: 768px) {
   .project {
-        width: 90% !important;
-        margin: 14px auto;
+        // width: 90% !important;
+        // margin: 14px auto;
   }
 
   .vertical {

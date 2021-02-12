@@ -95,11 +95,21 @@ export default class Nav extends Component {
                 </ul>
 
                 <div id="toggle">
-                    <div className="span">menu</div>
+                    <div className="span">
+                        <span>m</span>
+                        <span>e</span>
+                        <span>n</span>
+                        <span>u</span>
+                    </div>
                 </div>
                 <div id="resize">
-
-                    <div class="close-btn">close</div>
+                    <div class="close-btn">
+                            <span>c</span>
+                            <span>l</span>
+                            <span>o</span>
+                            <span>s</span>
+                            <span>e</span>
+                    </div>
 
                     <ul id="menu">
                         <li><Link href="/"><a>home<span>.</span></a></Link></li>

@@ -28,7 +28,7 @@ body {
   height: 100vh;
 }
 
-.container {
+.project {
   width: 100%;
   height: 100%;
   display: flex;
@@ -38,7 +38,7 @@ body {
 
   .card {
     position: relative;
-    width: 500px;
+    width: 400px;
     height: 200px;
     background-color: #fff;
     overflow: hidden;
@@ -84,13 +84,14 @@ body {
     }
     h2 {
       z-index: 1;
-      font-family: "Poppins", sans-serif;
+      // font-family: "Poppins", sans-serif;
       position: absolute;
-      bottom: 0;
-      right: 130px;
-      font-size: 60px;
-      font-weight: 700;
-      color: #fff;
+      text-transform: uppercase;
+      bottom: -5px;
+      right: 110px;
+      font-size: 20px;
+      // font-weight: 700;
+      color: black;
     }
 
     .fa-arrow-right {
@@ -102,7 +103,7 @@ body {
       cursor: pointer;
     }
     p {
-      z-index: 3;
+      z-index: 2;
       position: absolute;
       top: 20px;
       right: 70px;
@@ -115,11 +116,18 @@ body {
       transition: all 0.2s ease;
     }
     .pic {
-      z-index: 1;
-      width: 400px;
-      height: 200px;
+      width: 309px;
+      height: 214px;
       background-size: 100% 100%;
       filter: grayscale(100%);
+      position: absolute;
+      left: -20px;
+      top: 13px;
+      // z-index: 1;
+      // width: 400px;
+      // height: 200px;
+      // background-size: 100% 100%;
+      // filter: grayscale(100%);
     }
 
     .social {
@@ -167,7 +175,7 @@ body {
 
     button {
       position: absolute;
-      z-index: 2;
+      z-index: 1;
       right: 14px;
       bottom: 14px;
       width: 30px;
@@ -207,4 +215,12 @@ position: absolute;
   right: 16px;
   width:100px;
 }
- 
+@media screen and (max-width: 768px){
+  .all-projects {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .project .card {
+      width: 370px;
+  }
+}

@@ -1,13 +1,17 @@
 import Image from 'next/image';
 
-export default function Project({ name, title, image }) {
+export default function Project({ name, title, github, application, image }) {
       return (
             <>
-                  <div class="container">
+                  <div class="project">
                         <div class="card">
-                              <h2>North</h2>
+                              <h2>{name}.</h2>
                               <i class="fas fa-arrow-right"></i>
-                              <p>a lonely trip.</p>
+                              <p>{github} .</p>
+                              <div className="link">
+                                    <p>{application} .</p>
+                                    <p>{title} .</p>
+                              </div>
                               <div class="pic">
                                     <Image src={image} width={400} height={200} />
                               </div>
