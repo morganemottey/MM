@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Details({name, title, github, application, image}) {
+export default function Details() {
         return (
             <>
             <div className="container">
@@ -10,7 +10,7 @@ export default function Details({name, title, github, application, image}) {
                         <div className="col-lg-12">
                               <br/>
 
-                              <h1 className="wow fadeInUp" data-wow-delay="1s">{name}</h1>
+                              <h1 className="wow fadeInUp" data-wow-delay="1s"></h1>
 
                               <div className="row">
                                     <div className="col-lg-4">

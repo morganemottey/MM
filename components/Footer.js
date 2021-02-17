@@ -29,14 +29,15 @@ const Footer = () => {
                             <div className="col-lg-4" id="media">
                                 <p className="wow fadeInUp" data-wow-delay="0s">follow me</p>
                                 <ul>
-                                    <li id="fb" href="https://www.facebook.com/morgane.mottey" target="_blank" className="wow fadeInUp" data-wow-delay="0.4s">fb</li>
-                                    <li id="yt" href="https://github.com/morganemottey" target="_blank" className="wow fadeInUp" data-wow-delay="1s">gb</li>
+                                    <a id="fb" href="https://www.facebook.com/morgane.mottey" target="_blank" className="wow fadeInUp" data-wow-delay="0.4s">fb</a>
+                                    <a id="yt" href="https://github.com/morganemottey" target="_blank" className="wow fadeInUp" data-wow-delay="1s">gb</a>
+                                    <a id="lk" href="https://www.linkedin.com/in/morgane-mottey-9a3126b5/" target="_blank" className="wow fadeInUp" data-wow-delay="1s">lin</a>
                                 </ul>
                                 <br />
                             </div>
                             <div className="col-lg-4" id="address">
                                 <p className="wow fadeInUp" data-wow-delay="0s">contact me</p>
-                                <h4 className="wow fadeInUp" data-wow-delay="0.2s">morgane.mottey@gmail.com</h4>
+                                <h4 className="wow fadeInUp" data-wow-delay="0.2s"><a className="mailto" href="mailto:morgane.mottey@gmail.com">morgane.mottey@gmail.com</a></h4>
                                 <br />
                             </div>
                         </div>

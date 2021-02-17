@@ -102,7 +102,7 @@ function Projects() {
             {
               projects.map(item =>
                 item.filtered === true ?
-                  <div className="m-3">
+                  <div className="">
                     <Project key={item.name}
                       {...item}
                     />

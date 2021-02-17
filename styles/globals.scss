@@ -2,7 +2,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  //font-family: "Roboto Mono" !important;
 }
 
 a {
@@ -19,7 +18,6 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  //font-family: "Roboto Mono" !important;
   background: #0f0f0f !important;
   color: #fff !important;
 }
@@ -278,7 +276,7 @@ nav #menu li a:hover {
 }
 @media(max-width: 768px) {
   nav {
-    height: 100px;
+    height: 109px;
   }
   .span {
     font-size: 10px;
@@ -339,7 +337,15 @@ nav #menu li a:hover {
 }
 
 /*--------------- footer section --------------- */
-
+.mailto {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
 .collab {
   text-align: right;
 }
@@ -370,6 +376,14 @@ nav #menu li a:hover {
   font-size: 18px;
   padding-left: 20px;
 }
+#fb , #lk , #yt {
+  font-weight: lighter;
+  color: #fff;
+  list-style: none;
+  font-size: 18px;
+  padding-left: 20px;
+  text-decoration: none;
+}
 
 #fb::before {
   display: inline-block;
@@ -382,7 +396,8 @@ nav #menu li a:hover {
 }
 
 
-#ig::before {
+
+#lk::before {
   display: inline-block;
   content: '';
   border-radius: 100%;
@@ -390,17 +405,6 @@ nav #menu li a:hover {
   width: 4px;
   margin-right: 6px;
   background: #fcaf45;
-}
-
-
-#tw::before {
-  display: inline-block;
-  content: '';
-  border-radius: 100%;
-  height: 4px;
-  width: 4px;
-  margin-right: 6px;
-  background: #55acee;
 }
 
 
@@ -445,7 +449,6 @@ nav #menu li a:hover {
 
 .hero-content p {
   font-weight: 300;
-  // line-height: 36px;
   color: grey;
 }
 
@@ -468,11 +471,7 @@ nav #menu li a:hover {
   margin-top: 120px;
 }
 
-.image {
-  /* background: url(image_6.jpg) no-repeat 50% 50%; */
-}
-
-/*--------------- contact form --------------- */
+/*--------------- Contact --------------- */
 
 #contact-form {
   margin: 5% 1.4%;
@@ -545,20 +544,6 @@ textarea:focus {
   }
 }
 
-/*--------------- project page --------------- */
-
-.prev, .next p {
-  color: grey;
-}
-
-.prev p {
-  text-align: left;
-}
-
-.next p {
-  text-align: right;
-}
-
 /*--------------- horizontal scroll --------------- */
 .block {
   position: relative;
@@ -573,50 +558,11 @@ h1 {
   font-weight: lighter;
   font-size: 64px;
 }
-
-.block-1 {
-  /* background: url(image_8.jpg) no-repeat 50% 50%; */
-  background-size: cover;
-}
-
-.block-2 {
-  /* background: url(image_3.jpg) no-repeat 50% 50%; */
-  background-size: cover;
-}
-
-.block-3 {
-  /* background: url(image_4.jpg) no-repeat 50% 50%; */
-  background-size: cover;
-}
-
-.block-4 {
-  /* background: url(image_10.jpg) no-repeat 50% 50%; */
-  background-size: cover;
-}
-
-.block-5 {
-  /* background: url(image_2.jpg) no-repeat 50% 50%; */
-  background-size: cover;
-}
-
 .container {
-  // margin-top: 200px;
   margin-left: 200px;
 }
 .container-fluid {
   overflow-y: auto;
   overflow-x: hidden;
   overflow: hidden;
-}
-
-.block-1 h1,
-.block-3 h1,
-.block-5 h1 {
-  bottom: 0;
-  right: -60px;
-}
-
-.block-2 h1,
-.block-4 h1 {
-  right: -60px;
 }
