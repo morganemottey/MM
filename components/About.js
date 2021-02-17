@@ -12,7 +12,7 @@ const skills = {
   vj: 80,
   ph: 70,
   sy: 70,
-  ap: 60,
+  nex: 80,
   bt: 90,
   gt: 90,
   adm: 90,
@@ -42,11 +42,9 @@ export default class About extends Component {
       <div>
         <div className="container">
           <div className="hero-content">
-            <br /><br />
-
             <div className="row">
               <div className="col-lg-12">
-                <h3 className="wow fadeInUp" data-wow-delay="1.2s">about me.</h3><br />
+                <h3 className="wow fadeInUp" data-wow-delay="1.2s">skills.</h3><br />
 
                 <p className="wow fadeInUp">From a scientific background, I chose to realize my biggest dream and above all , achieve one of my biggest goals: to get up every morning and work without going backwards.</p>
 
@@ -70,7 +68,6 @@ export default class About extends Component {
 
             <div className="row">
               <div className="col-lg-12">
-                <h3 className="wow fadeInUp" data-wow-delay="1.2s">skills.</h3><br />
                 <div className="container">
                   <div className="bar">
                     <div className="skill">HTML & CSS</div>
@@ -101,6 +98,20 @@ export default class About extends Component {
                     </div>
                   </div>
                   <div className="bar">
+                    <div className="skill">Next JS</div>
+                    <div className="bar-outer">
+                      <div className="speech-bubble next">80%</div>
+                      <div className="bar-inner nex"></div>
+                    </div>
+                  </div>
+                  <div className="bar">
+                    <div className="skill">VueJS</div>
+                    <div className="bar-outer">
+                      <div className="speech-bubble vue">80%</div>
+                      <div className="bar-inner vj"></div>
+                    </div>
+                  </div>
+                  <div className="bar">
                     <div className="skill">NodeJS</div>
                     <div className="bar-outer">
                       <div className="speech-bubble node">65%</div>
@@ -115,13 +126,6 @@ export default class About extends Component {
                     </div>
                   </div>
                   <div className="bar">
-                    <div className="skill">VueJS</div>
-                    <div className="bar-outer">
-                      <div className="speech-bubble vue">80%</div>
-                      <div className="bar-inner vj"></div>
-                    </div>
-                  </div>
-                  <div className="bar">
                     <div className="skill">Php</div>
                     <div className="bar-outer">
                       <div className="speech-bubble php">70%</div>
@@ -133,13 +137,6 @@ export default class About extends Component {
                     <div className="bar-outer">
                       <div className="speech-bubble symfony">70%</div>
                       <div className="bar-inner sy"></div>
-                    </div>
-                  </div>
-                  <div className="bar">
-                    <div className="skill">Api Platform</div>
-                    <div className="bar-outer">
-                      <div className="speech-bubble api">60%</div>
-                      <div className="bar-inner ap"></div>
                     </div>
                   </div>
                   <div className="bar">

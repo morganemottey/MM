@@ -5,90 +5,70 @@ import photo2 from '../images/photo_2.png'
 import photo3 from '../images/photo_3.png'
 import photo4 from '../images/photo_4.png'
 import photo5 from '../images/photo_5.png'
-import photo6 from '../images/photo_6.png'
+import photo8 from '../images/photo_8.png'
 
 
 const portfolio = [
   {
-    name: "Project 1.0",
+    name: "Univert",
     title: "Univert",
+    techno: "HTML | CSS",
     category: ["all", "frontend"],
     image: `${photo2}`,
-    github: 'Github 1.0',
-    application:'Application 1.0'
+    description: "Intégration en HTML - CSS d’une maquette sur le thème du green . Site totalement responsive",
+    git: 'https://github.com/morganemottey/uni-vert',
+    site:'https://morganemottey.github.io/uni-vert/home_page.html'
   },
   {
-    name: "Project 2.0",
+    name: "South Park Memory Games",
     title: "South Park Memory Games",
+    techno: "HTML | CSS | JS",
     category: ["all", "frontend"],
     image: `${photo1}`,
-    github: 'Github 2.0',
-    application:'Application 2.0'
+    description: "L'un de mes premiers projets réalisé en équipe avant l’apprentissage d’un framework. Nous avions revisité le jeu du Memory en HTML - CSS - Pure JS",
+    git: 'https://github.com/morganemottey/memory-game',
+    site:'https://morganemottey.github.io/memory-game/enter.html'
   },
   {
-    name: "Project 3.0",
+    name: "Halloween Date Monster",
     title: "Date Monster",
+    techno: "HTML | CSS | REACT | AXIOS",
     category: ["all", "frontend"],
     image: `${photo4}`,
-    github: 'Github 3.0',
-    application:'Application 3.0'
+    description: "Site de rencontres entre monstre pour Halloween réalisé principalement avec React et l'utilisation d'une API.",
+    git: 'https://github.com/morganemottey/hackathon_halloween',
+    site:'Application 3.0'
   },
   {
-    name: "Project 4.0",
+    name: "Homer's nervous breakdown",
     title: 'Brickbreaker',
     category: ["all", "frontend"],
-    image: `${photo3}`,
-    github: 'Github 4.0',
-    application:'Application 4.0'
+    techno: "HTML | CSS | REACT",
+    image: `${photo8}`,
+    description: "Second projet réalisé au cours de ma formation. Le but étant de créer un jeu , adapté au mobile, avec Homer , des donuts et de la Duff . Avec mes collègues, nous avons donc transformé Homer en raquette , le but étant d’éviter les Duffs , de se goinfrer de donuts pour faire tomber le mur de briques et finir par étrangler Bart! ",
+    git: 'https://github.com/morganemottey/brickbreaker',
+    site:'https://wildcodeschool.github.io/lyon-0919-react-p2-brick-breaker/'
   },
   {
-    name: "Project 5.0",
-    title: 'Piqueur de rue',
-    category: ["all", "fullstack"],
-    image: `${photo5}`,
-    github: 'Github 5.0',
-    application:'Application 5.0'
-  },
-  {
-    name: "Project 6.0",
-    title: 'My Zoo',
-    category: ["all", "fullstack"],
-    image: `${photo6}`,
-    github: 'Github 6.0',
-    application:'Application 6.0'
-  },
-  {
-    name: "Project 7.0",
+    name: "Netflix Clone",
     title: 'Netflix Clone',
+    techno: "HTML | CSS | REACT | FIREBASE | AXIOS",
     category: ["all", "frontend"],
-    image: `${photo1}`,
-    github: 'Github 7.0',
-    application:'Application 7.0'
+    image: `${photo3}`,
+    description:"Ce petit projet perso a été réalisé à coté de mes projets professionels sous Vuejs afin d’être le plus polyvalente possible . J’ai donc choisi de reproduire la célèbre plate-forme Netflix sous React avec l’utilisation de plusieurs API et de Firebase. A noter que la partie design n’est pas abouti.",
+    git: 'https://github.com/morganemottey/brickbreaker',
+    site:'https://netflix-clone.morganemottey.vercel.app/'
   },
   {
-    name: "Project 8.0",
+    name: "E-commerce Sneakers",
     title: 'E-commerce Sneakers',
+    techno: "TWIG | SYMFONY | SCSS | EASYADMIN | MAILJET | STRIPE ",
     category: ["all", "fullstack"],
-    image: `${photo1}`,
-    github: 'Github 1.0',
-    application:'Application 1.0'
-  },
-  {
-    name: "Project 9.0 (Pro)",
-    title: 'Veepee',
-    category: ["all", "fullstack"],
-    image: `${photo1}`,
-    github: 'Github 1.0',
-    application:'Application 1.0'
-  },
-  {
-    name: "Project 10.0 (Pro)",
-    title: 'Cdiscount Occasion',
-    category: ["all", "fullstack"],
-    image: `${photo1}`,
-    github: 'Github 1.0',
-    application:'Application 1.0'
-  },
+    description: "Site d'e-commerce pour l'apprentissage de Symfony et afin de me perfectionner sur la partie backend. J'ai également créer une partie backoffice pour la gestion de toute l'interface grâce à EasyAdmin. J'ai implémenté Stripe comme moyen de paiement et Mailjet pour la partie mail afin d'informer l'utilisateur. ",
+    image: `${photo5}`,
+    git: 'https://github.com/morganemottey/ecommerce-shop',
+    site:''
+  }
 ];
 
 function Projects() {
@@ -110,6 +90,8 @@ function Projects() {
   }, [filter]);
   return (
     <>
+    <div className="container">
+      <div className="hero-content pt-0">
         <div class="form-container">
           <button className="projects_button" active={filter === "all"} onClick={() => setFilter("all")}> All </button>
           <button className="projects_button" active={filter === "frontend"} onClick={() => setFilter("frontend")}> Frontend </button>
@@ -122,16 +104,14 @@ function Projects() {
                 item.filtered === true ?
                   <div className="m-3">
                     <Project key={item.name}
-                      name={item.name}
-                      title={item.title}
-                      image={item.image}
-                      github={item.github}
-                      application={item.application}
+                      {...item}
                     />
                   </div>
                   : ""
               )}
         </div>
+      </div>
+      </div>
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/Head'
-import Project from '../components/Project'
+import Details from '../components/Details'
 
 export default function Projetc() {
     return (
@@ -8,7 +8,7 @@ export default function Projetc() {
             <Head>
                 <title>Project | M | M</title>
             </Head>
-            <Project />
+            <Details />
         </div>
     )
 }

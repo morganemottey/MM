@@ -1,0 +1,27 @@
+.form_contact {
+    width: 200px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    & p, .form_title {
+        text-align: right;
+    }
+}
+.form_title {
+    font-size: 11px;
+}
+.white_line {
+    width: 100px;
+    height: 2px;
+    border: 1px solid white;
+    text-align: right;
+}
+.form_adress, .form_tel {
+    font-size: 8px;
+}
+.wrapper_contact {
+    display: flex;
+    flex-direction: row;
+    width: 625px;
+}
