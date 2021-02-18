@@ -158,15 +158,16 @@ input::placeholder {
     max-height: 0;
 }
 .list-group {
+    width: 250px;
     animation: text-focus-in .5s cubic-bezier(.55,.085,.68,.53) both;
 }
 .moreExp {
-    font-size: 10px;
+    font-size: 15px;
     padding-left: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 .town {
-    font-size: 9px;
+    font-size: 11px;
 }
 @media screen and (max-width: 478px){
     .container_experience {

@@ -91,7 +91,8 @@ export default class Nav extends Component {
                     <li><Link href="/"><a>home<span>.</span></a></Link></li>
                     <li><Link href="/experiences"><a>experiences<span>.</span></a></Link></li>
                     <li><Link href="/projects"><a>work<span>.</span></a></Link></li>
-                    <li><Link href="/about"><a>about me<span>.</span></a></Link></li>
+                    <li><Link href="/skills"><a>skills<span>.</span></a></Link></li>
+                    <li><Link href="/hobbies"><a>hobbies<span>.</span></a></Link></li>
                     <li><Link href="/contact"><a>contact<span>.</span></a></Link></li>
                 </ul>
 
@@ -116,7 +117,8 @@ export default class Nav extends Component {
                         <li><Link href="/"><a>home<span>.</span></a></Link></li>
                         <li><Link href="/experiences"><a>experiences<span>.</span></a></Link></li>
                         <li><Link href="/projects"><a>work<span>.</span></a></Link></li>
-                        <li><Link href="/about"><a>about me<span>.</span></a></Link></li>
+                        <li><Link href="/skills"><a>skills<span>.</span></a></Link></li>
+                        <li><Link href="/hobbies"><a>hobbies<span>.</span></a></Link></li>
                         <li><Link href="/contact"><a>contact<span>.</span></a></Link></li>
                     </ul>
                 </div>

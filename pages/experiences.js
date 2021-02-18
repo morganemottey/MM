@@ -6,7 +6,7 @@ function experiences() {
     return (
         <div>
            <Head>
-                <title>Expériences | M | M</title>
+                <title>Experiences | M | M</title>
             </Head>
             <Experiences /> 
         </div>

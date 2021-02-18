@@ -1,0 +1,226 @@
+.send_message {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    &:hover {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+}
+.form_contact {
+    width: 200px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    & p, .form_title {
+        text-align: right;
+    }
+}
+.form_title {
+    font-size: 11px;
+}
+.white_line {
+    width: 100px;
+    height: 2px;
+    border: 1px solid white;
+    text-align: right;
+}
+.form_adress, .form_tel {
+    font-size: 8px;
+}
+.wrapper_contact {
+    display: flex;
+    flex-direction: row;
+    width: 625px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 20px;
+	color: rgba(0, 0, 0, .8);
+}
+
+.social-container-wrap {
+	width: 100%;
+	height: 600px;
+	margin: auto;
+	background: #0f0f11;
+	padding: 50px 0;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-ms-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+
+.social-container {
+	margin: 0 auto;
+	width: 285px;
+	height: 260px;
+	padding-left: 30px;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+	text-align: center;
+	-webkit-transition: -webkit-transform .7s;
+	-moz-transition: -moz-transform .7s;
+	-ms-transition: -ms-transform .7s;
+	-o-transition: -o-transform .7s;
+	transition: transform .7s;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+
+/* Button Styles */
+
+.social-container a {
+	display: block;
+	position: relative;
+	height: 4em;
+	width: 4em;
+	line-height: 4em;
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+	text-align: center;
+	border: 2px solid rgba(255, 255, 255, .3);
+	color: rgba(255, 255, 255, .6);
+	-webkit-transition: -webkit-transform .7s;
+	-moz-transition: -moz-transform .7s;
+	-ms-transition: -ms-transform .7s;
+	-o-transition: -o-transform .7s;
+	transition: transform .7s;
+}
+
+.social-container .twitter {
+	color: #00aced;
+	border-color: #00aced;
+}
+
+.social-container .facebook {
+	color: #3b5998;
+	border-color: #3b5998;
+}
+
+.social-container .youtube {
+	color: #dd4b39;
+	border-color: #dd4b39;
+}
+
+.social-container .pinterest {
+	color: #cc2127;
+	border-color: #cc2127;
+}
+
+.social-container .dribbble {
+	color: #ea4c89;
+	border-color: #ea4c89;
+}
+
+.social-container .instagram {
+	color: #5c3d2e;
+	border-color: #5c3d2e;
+}
+
+.social-container .linkedin {
+	color: #007fb1;
+	border-color: #007fb1;
+}
+
+.social-container .whatsapp {
+	color: #4ac959;
+	border-color: #4ac959;
+}
+
+.social-container .codepen {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.social-container a i {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.social-container a:hover {
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
+	-webkit-transform: scale(1.3, 1.3);
+	-moz-transform: scale(1.3, 1.3);
+	-ms-transform: scale(1.3, 1.3);
+	-o-transform: scale(1.3, 1.3);
+	transform: scale(1.3, 1.3);
+}
+
+.social-container .codepen:hover {
+	color: rgba(0, 0, 0, .8);
+	border-color: rgba(0, 0, 0, .8);
+}
+
+
+/* Hover background colors */
+
+.color-twitter {
+	background-color: #00aced !important;
+}
+
+.color-facebook {
+	background-color: #3b5998 !important;
+}
+
+.color-pinterest {
+	background-color: #cc2127 !important;
+}
+
+.color-youtube {
+	background-color: #dd4b39 !important;
+}
+
+.color-codepen {
+	background-color: #ffffff !important;
+}
+
+.color-dribbble {
+	background-color: #ea4c89 !important;
+}
+
+.color-instagram {
+	background-color: #fed373 !important;
+	background: radial-gradient(circle at 50% 50%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+.color-linkedin {
+	background-color: #007fb1 !important;
+}
+
+.color-whatsapp {
+	background-color: #4ac959 !important;
+}
+
+.color-twitter,
+.color-facebook,
+.color-pinterest,
+.color-linkedin,
+.color-codepen,
+.color-youtube,
+.color-dribbble,
+.color-whatsapp,
+.color-instagram {
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}

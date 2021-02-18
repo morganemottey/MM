@@ -22,7 +22,7 @@ export default class Experiences extends Component {
 
                 <p className="wow fadeInUp">From a scientific background, I chose to realize my biggest dream and above all , achieve one of my biggest goals: to get up every morning and work without going backwards.</p>
 
-                <p className="wow fadeInUp" data-wow-delay="0.2s">After having completed a full stack training based on React and Node. Then i had the opportunity to be hired in a Lyon start-up whose goal was to create recommerce platforms to resell second-hand products (like Vinted), all based on Symfony and VueJS.
+                <p className="wow fadeInUp" data-wow-delay="0.2s">After having completed a full stack training based on React and Node. Then had the opportunity to be hired in a Lyon start-up whose goal was to create recommerce platforms to resell second-hand products (like Vinted), all based on Symfony and VueJS.
                 I am a versatile girl, curious, and in love with my work. I'm not afraid of challenges and I always stay motivated.</p>
               </div>
             </div>
@@ -41,8 +41,8 @@ export default class Experiences extends Component {
               <div className={this.state.block1? "panel-collapse": "panel-collapse panel-close"}>
               <div className="list-group">
                 <p className="town">Lyon (02) - Place2Swap</p>
-                <p className="moreExp">| Return (Veepee) , plateforme qui offre une seconde chance <br/>d’acheter des articles manqués sur Veepee sous VueJS - Symfony</p>
-                <p className="moreExp">| Cdiscount Occasion , plateforme de ventes d'objets d'occasions entre particuliers sous VueJS - Symfony</p>
+                <p className="moreExp">| Return (Veepee) , platform that offers a second chance <br/>to buy missed items on Veepee with VueJS - Symfony</p>
+                <p className="moreExp">| Cdiscount Occasion , second-hand objects sales platform between individuals with Vuejs - Symfony</p>
               </div>
           </div>
             </li>
@@ -55,8 +55,9 @@ export default class Experiences extends Component {
               <div className={this.state.block2? "panel-collapse": "panel-collapse panel-close"}>
               <div className="list-group">
                 <p className="town">Lyon (02) - Wild Code School</p>
-                <p className="moreExp">| Développement de plusieurs projets sous ReactJS - NodeJS</p>
-                <p className="moreExp">| Participation à 2 hackatons</p>
+                <p className="moreExp">| Development of several projects with Reactjs - Nodejs</p>
+                <p className="moreExp">| Mockup - Database modeling - Model integration - Feature development</p>
+                <p className="moreExp">| Participation in 2 hackatons</p>
               </div>
             </div>
             </li>
@@ -70,10 +71,10 @@ export default class Experiences extends Component {
               <div className={this.state.block3? "panel-collapse": "panel-collapse panel-close"}>
               <div className="list-group">
                 <p className="town">Lyon (03) - MistiGriff</p>
-                <p className="moreExp">| Capacité de planification - Polyvalence</p>
-                <p className="moreExp">| Relation client - Goût pour le terrain</p>
-                <p className="moreExp">| Sens du leadership</p>
-                <p className="moreExp">| Capacité d'analyse et d'écoute</p>
+                <p className="moreExp">| Planning ability - Versatility</p>
+                <p className="moreExp">| Customer relationship - Taste for the land</p>
+                <p className="moreExp">| Sense of leadership</p>
+                <p className="moreExp">| Ability to analyze and listen</p>
               </div>
             </div>
             </li>

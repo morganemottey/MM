@@ -1,27 +1,30 @@
-.form_contact {
-    width: 200px;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    & p, .form_title {
-        text-align: right;
-    }
+.contact_form {
+	display: flex;
+	flex-direction: row;
+	font-family: 'Roboto Mono';
 }
-.form_title {
-    font-size: 11px;
+.line {
+	border: 1px solid white;
+	width: 200px;
 }
-.white_line {
-    width: 100px;
-    height: 2px;
-    border: 1px solid white;
-    text-align: right;
+.info {
+	text-align: right;
+	font-size: 13px;
+	margin-right: 5px;
 }
-.form_adress, .form_tel {
-    font-size: 8px;
-}
-.wrapper_contact {
-    display: flex;
-    flex-direction: row;
-    width: 625px;
+@media (max-width:600px){
+	.contact_form{
+		flex-direction: column;
+	}
+	.contact_title {
+		display: none;
+	}
+	.address_info {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.info {
+		text-align: center;
+		padding-top:2rem;
+	}		
 }
