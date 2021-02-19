@@ -24,6 +24,7 @@ export default class Experiences extends Component {
 
                 <p className="wow fadeInUp" data-wow-delay="0.2s">After having completed a full stack training based on React and Node. Then had the opportunity to be hired in a Lyon start-up whose goal was to create recommerce platforms to resell second-hand products (like Vinted), all based on Symfony and VueJS.
                 I am a versatile girl, curious, and in love with my work. I'm not afraid of challenges and I always stay motivated.</p>
+                <a className="validate_skills" href="https://drive.google.com/file/d/1xGfIu-etFhwVdtOqsTFKV_XtJ0wmG50t/view?usp=sharing" target="_blank">Letter of recommendation</a>
               </div>
             </div>
           </div>
