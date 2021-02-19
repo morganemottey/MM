@@ -5,13 +5,13 @@ import web from '../images/icons/globe.svg'
 export default function Project({ name, image, title, site, git , techno, description }) {
       return (
             <>
-            <div class="container">
-	   <div class="Box">
-	   	<div class="FlipBox">
-	   		<div class="Front">
+            <div className="container">
+	   <div className="Box">
+	   	<div className="FlipBox">
+	   		<div className="Front">
 	   			<img src={image} alt="image"/>
 	   		</div>
-	   		<div class="Back">
+	   		<div className="Back">
 	   			<div>
 	   			<h3>{name}</h3>
 	   			<p className="description">

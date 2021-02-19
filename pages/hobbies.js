@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Hobbies from '../components/Hobbies'
+import Hobbies from '../components/hobbies.js'
 import favico from '../public/favicon.ico'
 
 function hobbies() {

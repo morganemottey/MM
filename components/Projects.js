@@ -92,13 +92,13 @@ function Projects() {
     <>
     <div className="container">
       <div className="hero-content pt-0">
-        <div class="form-container">
+        <div className="form-container">
           <button className="projects_button" active={filter === "all"} onClick={() => setFilter("all")}> All </button>
           <button className="projects_button" active={filter === "frontend"} onClick={() => setFilter("frontend")}> Frontend </button>
           <button className="projects_button" active={filter === "fullstack"} onClick={() => setFilter("fullstack")}> Fullstack </button>
         </div>
-      <div class="">
-        <div class="row all-projects">
+      <div className="">
+        <div className="row all-projects">
             {
               projects.map(item =>
                 item.filtered === true ?

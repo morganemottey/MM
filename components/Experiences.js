@@ -29,16 +29,16 @@ export default class Experiences extends Component {
             </div>
           </div>
         </div>
-      <div class="container_experience mt-0">
-      <div class="rightbox">
-        <div class="rb-container">
-          <ul class="rb">
-            <li class="rb-item" ng-repeat="itembx">
-              <div class="timestamp">
+      <div className="container_experience mt-0">
+      <div className="rightbox">
+        <div className="rb-container">
+          <ul className="rb">
+            <li className="rb-item" ng-repeat="itembx">
+              <div className="timestamp">
                 Feb 2020 - Nov 2020
               </div>
-              <div class="item-title">FrontEnd Developer</div>
-              <p class="item-p"  onClick={function(){this.setState({block1:!this.state.block1})}.bind(this)} > en savoir + </p>
+              <div className="item-title">FrontEnd Developer</div>
+              <p className="item-p"  onClick={function(){this.setState({block1:!this.state.block1})}.bind(this)} > en savoir + </p>
               <div className={this.state.block1? "panel-collapse": "panel-collapse panel-close"}>
               <div className="list-group">
                 <p className="town">Lyon (02) - Place2Swap</p>
@@ -47,12 +47,12 @@ export default class Experiences extends Component {
               </div>
           </div>
             </li>
-            <li class="rb-item" ng-repeat="itembx">
-              <div class="timestamp">
+            <li className="rb-item" ng-repeat="itembx">
+              <div className="timestamp">
                 Sept 2019 - Feb 2020
               </div>
-              <div class="item-title">FullStack Developer</div>
-              <p class="item-p"  onClick={function(){this.setState({block2:!this.state.block2})}.bind(this)} > en savoir + </p>
+              <div className="item-title">FullStack Developer</div>
+              <p className="item-p"  onClick={function(){this.setState({block2:!this.state.block2})}.bind(this)} > en savoir + </p>
               <div className={this.state.block2? "panel-collapse": "panel-collapse panel-close"}>
               <div className="list-group">
                 <p className="town">Lyon (02) - Wild Code School</p>

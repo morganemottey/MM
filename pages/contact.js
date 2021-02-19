@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/Head'
-import Contact from '../components/Contact'
+import Contact from '../components/contact.js'
 import favico from '../public/favicon.ico'
 
 export default function contact() {

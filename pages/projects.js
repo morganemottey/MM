@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/Head'
-import Projects  from '../components/Projects'
+import Projects  from '../components/projects.js'
 import favico from '../public/favicon.ico'
 
 export default function about() {

@@ -105,7 +105,7 @@ export default class Nav extends Component {
                     </div>
                 </div>
                 <div id="resize">
-                    <div class="close-btn">
+                    <div className="close-btn">
                             <span>c</span>
                             <span>l</span>
                             <span>o</span>

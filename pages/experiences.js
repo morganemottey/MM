@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Experiences from '../components/Experiences'
+import Experiences from '../components/experiences.js'
 import favico from '../public/favicon.ico'
 
 function experiences() {
