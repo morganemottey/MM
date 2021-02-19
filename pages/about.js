@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import About from '../components/about.js'
+import About from '../components/About'
 import favico from '../public/favicon.ico'
 
 export default function about() {

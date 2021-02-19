@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Canvas from '../components/canvas.js'
+import Canvas from '../components/Canvas'
 import favico from '../public/favicon.ico'
 
 export default function Home() {
