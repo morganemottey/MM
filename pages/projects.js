@@ -1,5 +1,5 @@
 import React from 'react'
-import Head from 'next/Head'
+import Head from 'next/head'
 import Projects  from '../components/projects.js'
 import favico from '../public/favicon.ico'
 
