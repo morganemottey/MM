@@ -37,7 +37,7 @@ export default class Experiences extends Component {
               <div class="timestamp">
                 Feb 2020 - Nov 2020
               </div>
-              <div class="item-title">Developpeur FrontEnd</div>
+              <div class="item-title">FrontEnd Developer</div>
               <p class="item-p"  onClick={function(){this.setState({block1:!this.state.block1})}.bind(this)} > en savoir + </p>
               <div className={this.state.block1? "panel-collapse": "panel-collapse panel-close"}>
               <div className="list-group">
@@ -51,7 +51,7 @@ export default class Experiences extends Component {
               <div class="timestamp">
                 Sept 2019 - Feb 2020
               </div>
-              <div class="item-title">Developpeur Web FullStack</div>
+              <div class="item-title">FullStack Developer</div>
               <p class="item-p"  onClick={function(){this.setState({block2:!this.state.block2})}.bind(this)} > en savoir + </p>
               <div className={this.state.block2? "panel-collapse": "panel-collapse panel-close"}>
               <div className="list-group">
@@ -62,24 +62,6 @@ export default class Experiences extends Component {
               </div>
             </div>
             </li>
-
-            <li class="rb-item" ng-repeat="itembx">
-              <div class="timestamp">
-                Oct 2017 - Aug 2019
-              </div>
-              <div class="item-title">Clothes department manager</div>
-              <p class="item-p"  onClick={function(){this.setState({block3:!this.state.block3})}.bind(this)} > en savoir + </p>
-              <div className={this.state.block3? "panel-collapse": "panel-collapse panel-close"}>
-              <div className="list-group">
-                <p className="town">Lyon (03) - MistiGriff</p>
-                <p className="moreExp">| Planning ability - Versatility</p>
-                <p className="moreExp">| Customer relationship - Taste for the land</p>
-                <p className="moreExp">| Sense of leadership</p>
-                <p className="moreExp">| Ability to analyze and listen</p>
-              </div>
-            </div>
-            </li>
-
           </ul>
 
         </div>

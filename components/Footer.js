@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="collab">
                         <div className="row">
                             <div className="col-lg-12">
-                                <p className="wow fadeInUp">Got an interesting project? I can help you.</p>
+                                <p className="wow fadeInUp">.developer.</p>
                             </div>
                         </div>
                     </div>

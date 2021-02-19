@@ -73,7 +73,7 @@ export default class About extends Component {
                     </div>
                   </div>
                   <div className="bar">
-                    <div className="skill">Javascript</div>
+                    <div className="skill">Javascript - Jquery</div>
                     <div className="bar-outer">
                       <div className="speech-bubble javascript">80%</div>
                       <div className="bar-inner js"></div>
