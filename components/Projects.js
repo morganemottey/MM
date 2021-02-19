@@ -15,7 +15,7 @@ const portfolio = [
     techno: "HTML | CSS",
     category: ["all", "frontend"],
     image: `${photo2}`,
-    description: "Intégration en HTML - CSS d’une maquette sur le thème du green . Site totalement responsive",
+    description: "Integration HTML - CSS of a model on the theme of the green. Fully responsive site.",
     git: 'https://github.com/morganemottey/uni-vert',
     site:'https://morganemottey.github.io/uni-vert/home_page.html'
   },
@@ -25,7 +25,7 @@ const portfolio = [
     techno: "HTML | CSS | JS",
     category: ["all", "frontend"],
     image: `${photo1}`,
-    description: "L'un de mes premiers projets réalisé en équipe avant l’apprentissage d’un framework. Nous avions revisité le jeu du Memory en HTML - CSS - Pure JS",
+    description: "One of my first team projects before learning a framework. We revisited the Memory game in HTML - CSS - Pure JS.",
     git: 'https://github.com/morganemottey/memory-game',
     site:'https://morganemottey.github.io/memory-game/enter.html'
   },
@@ -35,9 +35,9 @@ const portfolio = [
     techno: "HTML | CSS | REACT | AXIOS",
     category: ["all", "frontend"],
     image: `${photo4}`,
-    description: "Site de rencontres entre monstre pour Halloween réalisé principalement avec React et l'utilisation d'une API.",
+    description: "Monster dating site for Halloween made mainly with React and the use of an API.",
     git: 'https://github.com/morganemottey/hackathon_halloween',
-    site:'Application 3.0'
+    site:'https://cha-dieleman.github.io/hackathon_halloween/#/'
   },
   {
     name: "Homer's nervous breakdown",
@@ -45,7 +45,7 @@ const portfolio = [
     category: ["all", "frontend"],
     techno: "HTML | CSS | REACT",
     image: `${photo8}`,
-    description: "Second projet réalisé au cours de ma formation. Le but étant de créer un jeu , adapté au mobile, avec Homer , des donuts et de la Duff . Avec mes collègues, nous avons donc transformé Homer en raquette , le but étant d’éviter les Duffs , de se goinfrer de donuts pour faire tomber le mur de briques et finir par étrangler Bart! ",
+    description: "Project of a game, adapted to mobile, with Homer, donuts and Duff. With my colleagues, we thus transformed Homer into a racket, the goal being to avoid the Duffs, to stuff himself with donuts to bring down the brick wall and end up strangling Bart! ",
     git: 'https://github.com/morganemottey/brickbreaker',
     site:'https://wildcodeschool.github.io/lyon-0919-react-p2-brick-breaker/'
   },
@@ -55,8 +55,8 @@ const portfolio = [
     techno: "HTML | CSS | REACT | FIREBASE | AXIOS",
     category: ["all", "frontend"],
     image: `${photo3}`,
-    description:"Ce petit projet perso a été réalisé à coté de mes projets professionels sous Vuejs afin d’être le plus polyvalente possible . J’ai donc choisi de reproduire la célèbre plate-forme Netflix sous React avec l’utilisation de plusieurs API et de Firebase. A noter que la partie design n’est pas abouti.",
-    git: 'https://github.com/morganemottey/brickbreaker',
+    description:"This small personal project was done alongside my professional projects under Vuejs in order to be as versatile as possible. So I chose to replicate the famous Netflix platform under React with the use of several APIs and Firebase. Note that the design part has not been completed.",
+    git: 'https://github.com/morganemottey/netflix-clone',
     site:'https://netflix-clone.morganemottey.vercel.app/'
   },
   {
@@ -64,7 +64,7 @@ const portfolio = [
     title: 'E-commerce Sneakers',
     techno: "TWIG | SYMFONY | SCSS | EASYADMIN | MAILJET | STRIPE ",
     category: ["all", "fullstack"],
-    description: "Site d'e-commerce pour l'apprentissage de Symfony et afin de me perfectionner sur la partie backend. J'ai également créer une partie backoffice pour la gestion de toute l'interface grâce à EasyAdmin. J'ai implémenté Stripe comme moyen de paiement et Mailjet pour la partie mail afin d'informer l'utilisateur. ",
+    description: "E-commerce site for learning Symfony and to improve myself on the backend part. I also created a backoffice part for the management of the whole interface thanks to EasyAdmin. I implemented Stripe as a means of payment and Mailjet for the mail part in order to inform the user.",
     image: `${photo5}`,
     git: 'https://github.com/morganemottey/ecommerce-shop',
     site:''

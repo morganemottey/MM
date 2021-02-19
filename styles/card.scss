@@ -51,6 +51,7 @@
 	vertical-align:middle;
 	text-align:center;
 	padding:20px;
+	width: 350px
 }
 .Box .Back div h3{
 	font-size:22px;
@@ -98,6 +99,9 @@ a.FirstButton {
 a.SecondButton {
   background: transparent;
   border: none;
+}
+.description {
+	font-size: 14px;
 }
 @media (max-width:780px){
 	.Box:not(:last-child):hover{

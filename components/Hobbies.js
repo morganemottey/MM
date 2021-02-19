@@ -30,8 +30,6 @@ export default class Skills extends Component {
                                     </div>
                               </div>
                         </div>
-
-                        <button type="submit" name="submit" id="contact-submit" class="send wow fadeInUp"><a className="send_message" href="mailto:morgane.mottey@gmail.com">Send Message</a></button>
                   </>
             )
       }

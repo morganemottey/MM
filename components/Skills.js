@@ -40,6 +40,18 @@ export default class About extends Component {
   render() {
     return (
       <div>
+        <div className="container">
+          <div className="hero-content">
+            <div className="row">
+              <div className="col-lg-12">
+                <h3 className="wow fadeInUp" data-wow-delay="1.2s">skills.</h3><br />
+
+                <p className="wow fadeInUp">With several years of working in various companies and a scientific background, I undertook a professional retraining in web development. After a first successful experience. Today I am looking to broaden my skills, work as a team to learn and share, and join a stimulating and challenging project.</p>
+                <a className="validate_skills" href="https://drive.google.com/file/d/1_wxG5NcKvJgrEbU4PNFqg0VzS1lOoLXM/view?usp=sharing" target="_blank">Book of validated skills</a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="">
           <div className="hero-content">
             <br /><br />

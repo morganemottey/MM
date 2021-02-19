@@ -43,6 +43,15 @@ h1 {
   height: 100px;
 }
 
+.validate_skills {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    list-style: none;
+    color: lightgray;
+    text-decoration: none;
+  }
+}
 @media(max-width: 768px) {
   .whitespace {
         display: none;

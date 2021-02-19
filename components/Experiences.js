@@ -18,7 +18,7 @@ export default class Experiences extends Component {
           <div className="hero-content">
             <div className="row">
               <div className="col-lg-12">
-                <h3 className="wow fadeInUp" data-wow-delay="1.2s">my experiences.</h3><br />
+                <h3 className="wow fadeInUp" data-wow-delay="1.2s">experiences.</h3><br />
 
                 <p className="wow fadeInUp">From a scientific background, I chose to realize my biggest dream and above all , achieve one of my biggest goals: to get up every morning and work without going backwards.</p>
 
@@ -36,7 +36,7 @@ export default class Experiences extends Component {
               <div class="timestamp">
                 Feb 2020 - Nov 2020
               </div>
-              <div class="item-title">Developpeur Web</div>
+              <div class="item-title">Developpeur FrontEnd</div>
               <p class="item-p"  onClick={function(){this.setState({block1:!this.state.block1})}.bind(this)} > en savoir + </p>
               <div className={this.state.block1? "panel-collapse": "panel-collapse panel-close"}>
               <div className="list-group">
@@ -50,7 +50,7 @@ export default class Experiences extends Component {
               <div class="timestamp">
                 Sept 2019 - Feb 2020
               </div>
-              <div class="item-title">Developpeur Web</div>
+              <div class="item-title">Developpeur Web FullStack</div>
               <p class="item-p"  onClick={function(){this.setState({block2:!this.state.block2})}.bind(this)} > en savoir + </p>
               <div className={this.state.block2? "panel-collapse": "panel-collapse panel-close"}>
               <div className="list-group">
@@ -66,7 +66,7 @@ export default class Experiences extends Component {
               <div class="timestamp">
                 Oct 2017 - Aug 2019
               </div>
-              <div class="item-title">Responsable de rayon en prêt à porter</div>
+              <div class="item-title">Clothes department manager</div>
               <p class="item-p"  onClick={function(){this.setState({block3:!this.state.block3})}.bind(this)} > en savoir + </p>
               <div className={this.state.block3? "panel-collapse": "panel-collapse panel-close"}>
               <div className="list-group">
