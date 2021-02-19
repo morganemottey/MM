@@ -8,6 +8,7 @@ import '../styles/projects.scss'
 import '../styles/hobbies.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Layout from '../components/Layout'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,4 +17,4 @@ function MyApp({ Component, pageProps }) {
     </Layout>  )
 }
 
-export default MyApp
+export default MyApp  

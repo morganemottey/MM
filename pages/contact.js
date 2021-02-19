@@ -1,14 +1,13 @@
 import React from 'react'
 import Head from 'next/Head'
 import Contact from '../components/Contact'
+import favico from '../public/favicon.ico'
 
 export default function contact() {
-    // const createHandleForm = (data) => {
-    //     alert(JSON.stringify(data))
-    // }
     return (
         <div>
             <Head>
+                <link rel="shortcut icon" href={favico} type="image/x-icon" />
                 <title>Contact | M | M</title>
             </Head>
             <Contact/>
